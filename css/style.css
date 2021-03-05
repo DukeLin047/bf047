@@ -1,0 +1,93 @@
+
+.img{
+    width:280px;
+    height: 280px;
+    background-color: #000;
+    /***文字或是圖片置中的口絕***/
+    /**/margin-top: 0;		/**/
+    /**/margin-bottom: 0;	/**/
+    /**/margin-right: auto;	/**/
+    /**/margin-left: auto;	/**/
+    /**************************/
+    background-image: url(../images/大逸.gif);/*背景投片*/
+    background-position: center center;/*背景投片抓中心點*/
+    background-size: cover;/*把整個背景圖片塞進去*/
+    border-radius: 50%;/*圓形*/
+    border: 5px solid #ccc;
+    box-shadow: 4px 4px 4px 4px #aaa;
+
+}
+.img:hover{
+    background-image: url(../images/123.jpg);/*滑鼠點到轉換背景圖片*/
+}
+.pimg{
+    width:280px;
+    /***文字或是圖片置中的口絕***/
+    /**/margin-top: 0;		 /**/
+    /**/margin-bottom: 0;	 /**/
+    /**/margin-right: auto;	 /**/
+    /**/margin-left: auto; 	 /**/
+    /***************************/
+    border: 2px solid #ccc;
+    padding: 50px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 20px #aaa;
+}
+.ptext{
+    text-align: center;
+    font-size: 24px;
+    font-weight:bold;
+    color: red;
+}
+.btn{
+    width:280px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 2px solid #ccc;*/
+    display: flex;
+    justify-content: center;
+    
+}
+#b1, #b2, #b3, #b4, #b5{
+    background-color:rgba(10, 55, 107);
+    color:white;
+    border-radius: 20px;
+    /* background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px; */
+}
+/* #b2{
+    background-color:rgba(10, 55, 107);
+    color:white;
+}
+#b3{
+    background-color:rgba(10, 55, 107);
+    color:white;
+}
+#b4{
+    background-color:rgba(10, 55, 107);
+    color:white;
+} */
+#na1, #na2, #na3, #na4, #button1{
+    background-color:rgba(10, 55, 107);
+}
+#na4{
+    margin-right: -200%;	 
+    float: right;
+    margin-left: 220px; 	 
+    width: 50px;
+    border: 0px;
+}
+#na1{
+    width: 50px;
+    height: 0px;
+}
+#headertop{
+    background-color:rgba(10, 55, 107);
+
+}
+

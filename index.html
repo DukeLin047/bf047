@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css">
+    <script src="./js/jquery-2.1.0.min.js"></script>
+    <script src="./js/jquery.mobile-1.4.5.min.js"></script>
+    <title>大逸嚴選</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- <link rel="stylesheet" href="twicon/twicon.css"> -->
+</head>
+<body>
+    <div data-role="page" id="home">
+        <div data-role="header" data-position="fixed"  id="headertop" >
+            <div data-role="navbar" data-grid="c" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-icon="bars" data-theme="a" id="na1"></a></li>
+                    <!-- <li><a href="#" data-icon=" " data-theme="a" id="na2"></a></li> -->
+                    <!-- <li><a href="#" data-icon=" " data-theme="a" id="na3"></a></li> -->
+                    <li><a href="#" data-icon="user" data-theme="a" id="na4" ></a></li>
+                </ul>
+            </div>
+        </div>
+         <div role="main" class="ui-content">
+             <a href="./index.html" title="大逸嚴選首頁"><div class="img"></div></a>
+            
+            <div class="btn" style="margin-top: 10px;">
+                <div class="ui-block-a" class="btn">
+                    <a href="#" data-role="button" data-icon="home" id="b1">首頁</a>
+                    <a href="#" data-role="button" data-icon="info" id="b2">關於大逸嚴選</a>
+                    <a href="#" data-role="button" data-icon="shop"  id="b3">嚴選產品介紹</a>
+                    <a href="#" data-role="button" data-icon="user" id="b4">會員登入</a>
+                    <a href="#about" data-role="button" data-rel="dialog" data-icon="mail"  id="b5">聯絡我們</a>
+                </div>
+            </div> 
+        </div>           
+        <div data-role="footer" date-theme="a" data-position="fixed" data-theme="b" id="button1">
+            <h1>頁尾</h1>
+        </div>
+    </div>
+    <!--聯絡資訊 -->
+     <div data-role="page" id="about">
+        <div data-role="header" data-theme="b">
+            <h1>聯絡我</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <h1>公司:大逸嚴選</h1>
+            <h2>住址:彰化縣彰化市埔南街92號</h2>
+            <h3>電話:0909-166630</h3>
+        </div>
+    </div>
+</body>
+</html>
