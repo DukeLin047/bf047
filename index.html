@@ -13,13 +13,24 @@
 </head>
 <body>
     <div data-role="page" id="home">
+        <div data-role="panel" id="left-panel01">
+            <ul data-role="listview" data-inst="true">
+                <li data-role="list-divider" id="list-color">主選單</li>
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#registered">註冊</a></li>
+                <li><a href="#news">最新消息</a></li>
+            </ul>
+        </div>
+        <div data-role="panel" id="right-panel01" data-position="right">
+            <h1> this is right panel01</h1>
+        </div>
         <div data-role="header" data-position="fixed"  id="headertop" >
             <div data-role="navbar" data-grid="c" data-iconpos="top">
                 <ul>
-                    <li><a href="#" data-icon="bars" data-theme="a" id="na1"></a></li>
+                    <li><a href="#left-panel01" data-icon="bars" data-theme="a" id="na1"></a></li>
                     <!-- <li><a href="#" data-icon=" " data-theme="a" id="na2"></a></li> -->
                     <!-- <li><a href="#" data-icon=" " data-theme="a" id="na3"></a></li> -->
-                    <li><a href="#" data-icon="user" data-theme="a" id="na4" ></a></li>
+                    <li><a href="#right-panel01" data-icon="user" data-theme="a" id="na4" ></a></li>
                 </ul>
             </div>
         </div>
@@ -52,4 +63,5 @@
         </div>
     </div>
 </body>
+<script src="./js/script.js"></script>
 </html>
